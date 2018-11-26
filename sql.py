@@ -1,8 +1,8 @@
+import mysql.connector
 dbconfig={'host': '127.0.0.1',
           'user': 'root',
           'password': 'Bobr1234567890',
           'database': 'vsearchlogDB', }
-import mysql.connector
 conn=mysql.connector.connect(**dbconfig)
 cursor=conn.cursor()
 _SQL="""insert into log
